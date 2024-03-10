@@ -1,0 +1,203 @@
+openapi: 3.0.0
+info:
+  title: My API
+  description: Description of my API
+  version: 1.0.0
+paths:
+  /admin/addDishToMenu:
+    post:
+      description: ""
+      requestBody:
+        content:
+          text/plain:
+            schema:
+              type: "string"
+        required: true
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+        "400":
+          description: "Bad Request"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+              examples:
+                Example#1:
+                  value: "Data of request is incorrect"
+        "401":
+          description: "Unauthorized"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+  /admin/exit:
+    post:
+      description: ""
+      requestBody:
+        content:
+          text/plain:
+            schema:
+              type: "string"
+        required: true
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "object"
+        "400":
+          description: "Bad Request"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+              examples:
+                Example#1:
+                  value: "Data of request is incorrect"
+        "401":
+          description: "Unauthorized"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+  /admin/getStatistics:
+    post:
+      description: ""
+      requestBody:
+        content:
+          text/plain:
+            schema:
+              type: "string"
+        required: true
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+        "400":
+          description: "Bad Request"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+              examples:
+                Example#1:
+                  value: "Data of request is incorrect"
+        "401":
+          description: "Unauthorized"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+  /admin/increaseTheNumberOfDish:
+    post:
+      description: ""
+      requestBody:
+        content:
+          text/plain:
+            schema:
+              type: "string"
+        required: true
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+              examples:
+                Example#1:
+                  value: "OK"
+        "400":
+          description: "Bad Request"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+              examples:
+                Example#1:
+                  value: "Data of request is incorrect"
+        "401":
+          description: "Unauthorized"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+  /admin/removeDishFromMenu:
+    post:
+      description: ""
+      requestBody:
+        content:
+          text/plain:
+            schema:
+              type: "string"
+        required: true
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+              examples:
+                Example#1:
+                  value: "OK"
+        "400":
+          description: "Bad Request"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+              examples:
+                Example#1:
+                  value: "Data of request is incorrect"
+        "401":
+          description: "Unauthorized"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+  /admin/setParamToDish:
+    post:
+      description: ""
+      requestBody:
+        content:
+          text/plain:
+            schema:
+              type: "string"
+        required: true
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+              examples:
+                Example#1:
+                  value: "OK"
+        "400":
+          description: "Bad Request"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+              examples:
+                Example#1:
+                  value: "Data of request is incorrect"
+        "401":
+          description: "Unauthorized"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+servers:
+  - url: http://localhost:8080/

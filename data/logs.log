@@ -1,0 +1,82 @@
+[Sat Mar 09 23:23:38 MSK 2024]. ------------------------------. 
+[Sat Mar 09 23:23:38 MSK 2024]. System was created.. 
+[Sat Mar 09 23:23:38 MSK 2024]. DishList deserializator: null. 
+[Sat Mar 09 23:23:38 MSK 2024]. DishIdGetter deserializator: null. 
+[Sat Mar 09 23:23:38 MSK 2024]. AllOrders deserializator: null. 
+[Sat Mar 09 23:23:38 MSK 2024]. OrderIdGetter deserializator: null. 
+[Sat Mar 09 23:23:38 MSK 2024]. Users deserializator: null. 
+[Sat Mar 09 23:23:38 MSK 2024]. UserIdGetter deserializator: null. 
+[Sat Mar 09 23:23:56 MSK 2024]. Attempt for auth with login 123. Result: ERROR. 
+[Sat Mar 09 23:24:07 MSK 2024]. Attempt for register a new user with login Nikita. OK. 
+[Sat Mar 09 23:24:16 MSK 2024]. Attempt for auth with login Nikita. Result: OK. 
+[Sat Mar 09 23:25:55 MSK 2024]. New dish with NAME=Котлетка с пюрешкой and AMOUNT=5 added to menu. Status: OK 
+[Sun Mar 10 15:20:42 MSK 2024]. ------------------------------. 
+[Sun Mar 10 15:20:42 MSK 2024]. System was created.. 
+[Sun Mar 10 15:20:42 MSK 2024]. DishList deserializator: Unexpected JSON token at offset 55: Encountered an unknown key 'timeProduction' at path: $.0.price
+Use 'ignoreUnknownKeys = true' in 'Json {}' builder to ignore unknown keys.
+JSON input: [{"dishId":1,"name":"Котлетка с пюрешкой","price":100,"timeProduction":"PT20M"},5]. 
+[Sun Mar 10 15:20:42 MSK 2024]. AllOrders deserializator: null. 
+[Sun Mar 10 15:20:42 MSK 2024]. OrderIdGetter deserializator: null. 
+[Sun Mar 10 15:20:43 MSK 2024]. Users in AuthSystem has deserialized successfully!. 
+[Sun Mar 10 15:20:43 MSK 2024]. UserIdGetter in AuthSystem has deserialized successfully!. 
+[Sun Mar 10 15:20:43 MSK 2024]. Attempt for auth with login 123. Result: ERROR. 
+[Sun Mar 10 15:21:20 MSK 2024]. Attempt for auth with login 123. Result: ERROR. 
+[Sun Mar 10 15:21:34 MSK 2024]. Attempt for register a new user with login 123. OK. 
+[Sun Mar 10 15:21:49 MSK 2024]. Attempt for auth with login 123. Result: OK. 
+[Sun Mar 10 15:38:25 MSK 2024]. ------------------------------. 
+[Sun Mar 10 15:38:25 MSK 2024]. System was created.. 
+[Sun Mar 10 15:38:25 MSK 2024]. DishList deserializator: Unexpected JSON token at offset 55: Encountered an unknown key 'timeProduction' at path: $.0.price
+Use 'ignoreUnknownKeys = true' in 'Json {}' builder to ignore unknown keys.
+JSON input: [{"dishId":1,"name":"Котлетка с пюрешкой","price":100,"timeProduction":"PT20M"},5]. 
+[Sun Mar 10 15:38:25 MSK 2024]. AllOrders deserializator: null. 
+[Sun Mar 10 15:38:25 MSK 2024]. OrderIdGetter deserializator: null. 
+[Sun Mar 10 15:38:25 MSK 2024]. Users in AuthSystem has deserialized successfully!. 
+[Sun Mar 10 15:38:25 MSK 2024]. UserIdGetter in AuthSystem has deserialized successfully!. 
+[Sun Mar 10 15:38:25 MSK 2024]. Attempt for auth with login 123. Result: OK. 
+[Sun Mar 10 16:07:44 MSK 2024]. ------------------------------. 
+[Sun Mar 10 16:07:44 MSK 2024]. System was created.. 
+[Sun Mar 10 16:07:44 MSK 2024]. DishList deserializator: null. 
+[Sun Mar 10 16:07:44 MSK 2024]. AllOrders deserializator: null. 
+[Sun Mar 10 16:07:44 MSK 2024]. OrderIdGetter deserializator: null. 
+[Sun Mar 10 16:07:44 MSK 2024]. Users in AuthSystem has deserialized successfully!. 
+[Sun Mar 10 16:07:44 MSK 2024]. UserIdGetter in AuthSystem has deserialized successfully!. 
+[Sun Mar 10 16:07:44 MSK 2024]. Attempt for auth with login 123. Result: OK. 
+[Sun Mar 10 17:05:31 MSK 2024]. ------------------------------. 
+[Sun Mar 10 17:05:31 MSK 2024]. System was created.. 
+[Sun Mar 10 17:05:31 MSK 2024]. DishList deserializator: null. 
+[Sun Mar 10 17:05:31 MSK 2024]. AllOrders deserializator: null. 
+[Sun Mar 10 17:05:31 MSK 2024]. OrderIdGetter deserializator: null. 
+[Sun Mar 10 17:05:31 MSK 2024]. Users in AuthSystem has deserialized successfully!. 
+[Sun Mar 10 17:05:31 MSK 2024]. UserIdGetter in AuthSystem has deserialized successfully!. 
+[Sun Mar 10 17:05:31 MSK 2024]. Attempt for auth with login 123. Result: OK. 
+[Mon Mar 11 21:00:18 MSK 2024]. ------------------------------. 
+[Mon Mar 11 21:00:18 MSK 2024]. System was created.. 
+[Mon Mar 11 21:00:18 MSK 2024]. DishList deserialization: null. 
+[Mon Mar 11 21:00:18 MSK 2024]. AllOrders deserializator: null. 
+[Mon Mar 11 21:00:18 MSK 2024]. OrderIdGetter deserializator: null. 
+[Mon Mar 11 21:00:18 MSK 2024]. Users in AuthSystem has deserialized successfully!. 
+[Mon Mar 11 21:00:18 MSK 2024]. UserIdGetter in AuthSystem has deserialized successfully!. 
+[Mon Mar 11 21:00:18 MSK 2024]. Attempt for auth with login 123. Result: OK. 
+[Mon Mar 11 21:00:46 MSK 2024]. New dish with NAME=Фритату and AMOUNT=20 added to menu. Status: OK 
+[Mon Mar 11 21:11:07 MSK 2024]. ------------------------------. 
+[Mon Mar 11 21:11:07 MSK 2024]. System was created.. 
+[Mon Mar 11 21:11:07 MSK 2024]. AllOrders deserialization: null. 
+[Mon Mar 11 21:11:07 MSK 2024]. OrderIdGetter deserialization: null. 
+[Mon Mar 11 21:11:07 MSK 2024]. Users in AuthSystem has deserialized successfully!. 
+[Mon Mar 11 21:11:07 MSK 2024]. UserIdGetter in AuthSystem has deserialized successfully!. 
+[Mon Mar 11 21:11:07 MSK 2024]. Attempt for auth with login 123. Result: OK. 
+[Mon Mar 11 21:11:39 MSK 2024]. Attempt for register a new user with login Nikita. OK. 
+[Mon Mar 11 21:11:44 MSK 2024]. Attempt for auth with login Nikita. Result: OK. 
+[Mon Mar 11 21:12:45 MSK 2024]. checking possibility to accept the order.... 
+[Mon Mar 11 21:12:45 MSK 2024]. Order has accepted!. Status: OK 
+[Mon Mar 11 21:12:45 MSK 2024]. Order #1 for user #3 are starting working! Time: 7500. 
+[Mon Mar 11 21:12:45 MSK 2024]. Start cooking order 1.... 
+[Mon Mar 11 21:13:05 MSK 2024]. OrderStatus for user #3  is Cooking. Status: OK 
+[Mon Mar 11 22:01:34 MSK 2024]. ------------------------------. 
+[Mon Mar 11 22:01:34 MSK 2024]. System was created.. 
+[Mon Mar 11 22:01:34 MSK 2024]. AllOrders in OrderSystem has deserialized successfully!. 
+[Mon Mar 11 22:01:34 MSK 2024]. OrderIdGetter in OrderSystem has deserialized successfully!. 
+[Mon Mar 11 22:01:34 MSK 2024]. Users in AuthSystem has deserialized successfully!. 
+[Mon Mar 11 22:01:34 MSK 2024]. UserIdGetter in AuthSystem has deserialized successfully!. 
+[Mon Mar 11 22:01:34 MSK 2024]. Attempt for auth with login 123. Result: OK. 
+[Mon Mar 11 22:06:12 MSK 2024]. Attempt for auth with login Nikita. Result: OK. 
